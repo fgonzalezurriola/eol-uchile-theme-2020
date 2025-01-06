@@ -1,12 +1,16 @@
 ## mako
 
+
+<link rel="stylesheet" href="${static.url('css/eol-uchile-2020/main.css')}">
+<link rel="stylesheet" href="${static.url('css/eol-uchile-2020/bootstrap.css')}">
+
 <%page expression_filter="h" args="online_help_token"/>
 
 <%namespace name='static' file='../static_content.html'/>
 <%namespace file='../main.html' import="login_query"/>
 <%!
 from django.urls import reverse
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from openedx.core.djangoapps.site_configuration import helpers as configuration_helpers
 %>
 
