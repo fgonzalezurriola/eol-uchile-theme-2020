@@ -85,8 +85,8 @@ from common.djangoapps.pipeline_mako import render_require_js_path_overrides
   <script type="text/javascript" src="${static.url(ie11_fix_path)}"></script>
   <link rel="icon" type="image/x-icon" href="${static.url(static.get_value('favicon_path', settings.FAVICON_PATH))}" />
   <!-- EOL -->
-  <link rel="stylesheet" href="${static.url('eol-uchile-2020/css/eol-uchile-2020/bootstrap.css')}">
-  <link rel="stylesheet" href="${static.url('eol-uchile-2020/css/eol-uchile-2020/main.css')}">
+  <link rel="stylesheet" href="${static.url('eol-uchile-theme-2020/css/eol-uchile-theme-2020/bootstrap.css')}">
+  <link rel="stylesheet" href="${static.url('eol-uchile-theme-2020/css/eol-uchile-theme-2020/main.css')}">
   <!-- end EOL -->
   <%static:css group='style-vendor'/>
   % if '/' in self.attr.main_css:

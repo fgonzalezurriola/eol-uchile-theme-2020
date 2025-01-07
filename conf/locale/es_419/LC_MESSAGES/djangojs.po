@@ -1,14 +1,14 @@
 # Spanish (Latin America) translations for PROJECT.
-# Copyright (C) 2021 eduNEXT
+# Copyright (C) 2025 EOL
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: support@edunext.co\n"
-"POT-Creation-Date: 2022-07-04 21:49+0000\n"
-"PO-Revision-Date: 2021-10-20 19:03+0000\n"
+"Report-Msgid-Bugs-To: eol-ayuda@uchile.cl\n"
+"POT-Creation-Date: 2025-01-07 14:21+0000\n"
+"PO-Revision-Date: 2025-01-07 14:09+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es_419\n"
 "Language-Team: es_419 <LL@li.org>\n"
@@ -73,6 +73,7 @@ msgid "Preview"
 msgstr ""
 
 #: cms/templates/container.html:161 cms/templates/studio_xblock_wrapper.html:80
+#: lms/templates/eoldiscussion/templates2.underscore:890
 msgid "Edit"
 msgstr ""
 
@@ -455,6 +456,7 @@ msgstr ""
 #: cms/templates/js/course-outline.underscore:178
 #: cms/templates/studio_xblock_wrapper.html:120
 #: cms/templates/studio_xblock_wrapper.html:122
+#: lms/templates/eoldiscussion/templates2.underscore:898
 msgid "Delete"
 msgstr ""
 
@@ -912,6 +914,10 @@ msgid "Account Status Info"
 msgstr ""
 
 #: lms/templates/dashboard.html:325 lms/templates/dashboard.html:357
+#: lms/templates/eoldiscussion/templates2.underscore:454
+#: lms/templates/eoldiscussion/templates2.underscore:876
+#: lms/templates/eoldiscussion/templates2.underscore:878
+#: lms/templates/eoldiscussion/templates2.underscore:926
 msgid "Close"
 msgstr ""
 
@@ -942,20 +948,74 @@ msgstr ""
 msgid "Unenroll"
 msgstr ""
 
-#: lms/templates/footer.html:40
+#: lms/templates/edit_unit_link.html:5
+msgid "View Unit in Studio"
+msgstr ""
+
+#: lms/templates/footer.html:25
 msgid "¿Necesitas Ayuda? Contáctate con la "
 msgstr ""
 
-#: lms/templates/footer.html:40 lms/templates/static_templates/faq.html:90
+#: lms/templates/footer.html:25 lms/templates/static_templates/faq.html:90
 msgid "Mesa de Ayuda de EOL"
 msgstr ""
 
-#: lms/templates/footer.html:45
+#: lms/templates/footer.html:30
 msgid "Política de privacidad"
 msgstr ""
 
-#: lms/templates/main.html:184
+#: lms/templates/main.html:190
 msgid "Skip to main content"
+msgstr ""
+
+#: lms/templates/preview_menu.html:54
+msgid "Course View"
+msgstr ""
+
+#: lms/templates/preview_menu.html:59
+msgid "View this course as:"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:398
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:198
+#: lms/templates/preview_menu.html:61
+msgid "Staff"
+msgstr ""
+
+#: lms/templates/preview_menu.html:62
+msgid "Learner"
+msgstr ""
+
+#: lms/templates/preview_menu.html:63
+msgid "Specific learner"
+msgstr ""
+
+#: lms/templates/preview_menu.html:68
+msgid "Learner in {content_group}"
+msgstr ""
+
+#: lms/templates/preview_menu.html:75
+msgid "Username or email:"
+msgstr ""
+
+#: lms/templates/preview_menu.html:78
+msgid "Set preview mode"
+msgstr ""
+
+#: lms/templates/preview_menu.html:85
+msgid "You are now viewing the course as {i_start}{user_name}{i_end}."
+msgstr ""
+
+#: lms/templates/preview_menu.html:96
+msgid "View in the new experience"
+msgstr ""
+
+#: lms/templates/preview_menu.html:106
+msgid "View in Studio"
+msgstr ""
+
+#: lms/templates/preview_menu.html:142
+msgid "View in Insights"
 msgstr ""
 
 #: lms/templates/certificates/validate_certificates.html:22
@@ -1010,90 +1070,100 @@ msgstr ""
 msgid "Pursue a Verified Certificate"
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:44
+#: lms/templates/courseware/course_about.html:76
 msgid "An error occurred. Please try again later."
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:99
+#: lms/templates/courseware/course_about.html:131
 msgid "View About Page in studio"
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:103
+#: lms/templates/courseware/course_about.html:135
 msgid "You are enrolled in this course"
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:106
-#: lms/templates/courseware/course_about.html:123
+#: lms/templates/courseware/course_about.html:138
+#: lms/templates/courseware/course_about.html:155
 msgid "View Course"
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:110
+#: lms/templates/courseware/course_about.html:142
 msgid "Course is full"
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:116
+#: lms/templates/courseware/course_about.html:148
 msgid "La inscripción a este curso es sólo por invitación"
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:119
+#: lms/templates/courseware/course_about.html:151
 msgid "Enrollment is Closed"
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:140
+#: lms/templates/courseware/course_about.html:174
+#: lms/templates/courseware/course_about.html:187
+#: lms/templates/courseware/course_about.html:196
 msgid "Inscribirse"
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:165
+#: lms/templates/courseware/course_about.html:191
+msgid "Este curso es solo para la comunidad UChile."
+msgstr ""
+
+#: lms/templates/courseware/course_about.html:202
+msgid "Debes iniciar sesión para inscribirte en el curso"
+msgstr ""
+
+#: lms/templates/courseware/course_about.html:232
 msgid "Course Number"
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:170
+#: lms/templates/courseware/course_about.html:237
 msgid "Classes Start"
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:182
+#: lms/templates/courseware/course_about.html:249
 msgid "Classes End"
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:190
+#: lms/templates/courseware/course_about.html:257
 msgid "Estimated Effort"
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:195
-#: lms/templates/courseware/course_about.html:197
+#: lms/templates/courseware/course_about.html:262
+#: lms/templates/courseware/course_about.html:264
 msgid "Free"
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:203
+#: lms/templates/courseware/course_about.html:270
 msgid "Price"
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:211
+#: lms/templates/courseware/course_about.html:278
 msgid "Prerequisites"
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:215
+#: lms/templates/courseware/course_about.html:282
 #: lms/templates/dashboard/_dashboard_course_listing.html:436
 msgid ""
 "You must successfully complete {link_start}{prc_display}{link_end} before"
 " you begin this course."
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:226
+#: lms/templates/courseware/course_about.html:293
 msgid "Requirements"
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:274
+#: lms/templates/courseware/course_about.html:341
 #: lms/templates/header/navbar-not-authenticated.html:28
 msgid "Preguntas frecuentes"
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:290
+#: lms/templates/courseware/course_about.html:358
 msgctxt "self"
 msgid "Enroll"
 msgstr ""
 
-#: lms/templates/courseware/course_about.html:295
+#: lms/templates/courseware/course_about.html:363
 msgctxt "self"
 msgid "enroll"
 msgstr ""
@@ -1594,7 +1664,7 @@ msgid ""
 msgstr ""
 
 #: lms/templates/eol_contact_form/contact.html:7
-#: lms/templates/header/navbar-authenticated.html:51
+#: lms/templates/header/navbar-authenticated.html:55
 msgid "Formulario de Contacto"
 msgstr ""
 
@@ -1709,49 +1779,525 @@ msgstr ""
 msgid "Enviar Consulta"
 msgstr ""
 
-#: lms/templates/header/header.html:76
+#: lms/templates/eoldiscussion/_discussion_inline.html:40
+msgid "Topic:"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_discussion_inline.html:51
+msgid "El foro termina el"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_discussion_inline.html:55
+msgid "El foro inicia el"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_discussion_inline.html:59
+#: lms/templates/eoldiscussion/_discussion_inline.html:65
+msgid "El foro ha finalizado."
+msgstr ""
+
+#: lms/templates/eoldiscussion/_discussion_inline.html:71
+#: lms/templates/eoldiscussion/_discussion_inline.html:81
+msgid "Notifications"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_discussion_inline.html:122
+msgid "Save"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_discussion_inline_studio.html:8
+msgid "To view live discussions, click Preview or View Live in Unit Settings."
+msgstr ""
+
+#: lms/templates/eoldiscussion/_discussion_inline_studio.html:9
+msgid "Discussion ID: {discussion_id}"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_filter_dropdown.html:53
+msgid "Discussion topics list"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_filter_dropdown.html:55
+#: lms/templates/eoldiscussion/_filter_dropdown.html:56
+msgid "Filter Topics"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_filter_dropdown.html:57
+msgid "filter topics"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_filter_dropdown.html:63
+msgid "All Discussions"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_filter_dropdown.html:67
+msgid "Posts I'm Following"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_thread_list_template.html:8
+msgid "Filter:"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_thread_list_template.html:11
+msgid "Show all posts"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_thread_list_template.html:13
+msgid "Unread posts"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_thread_list_template.html:16
+msgid "Unanswered posts"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_thread_list_template.html:20
+msgid "Flagged"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_thread_list_template.html:26
+msgid "Group:"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_thread_list_template.html:28
+msgid "in all groups"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_thread_list_template.html:37
+msgid "Sort:"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_thread_list_template.html:40
+msgid "Por actividad reciente"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_thread_list_template.html:42
+msgid "Por mayor actividad"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_thread_list_template.html:44
+msgid "Por mayor número de votos"
+msgstr ""
+
+#: lms/templates/eoldiscussion/_user_profile.html:8
+#, python-format
+msgid "%s discussion started"
+msgid_plural "%s discussions started"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lms/templates/eoldiscussion/_user_profile.html:9
+#, python-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:15
+msgid "Responder"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:22
+msgid "Add a response:"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:26
+#: lms/templates/eoldiscussion/templates2.underscore:161
+#: lms/templates/eoldiscussion/templates2.underscore:191
+#: lms/templates/eoldiscussion/templates2.underscore:278
+#: lms/templates/eoldiscussion/templates2.underscore:334
+#: lms/templates/eoldiscussion/templates2.underscore:509
+msgid "Caracteres restantes"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:36
+#: lms/templates/eoldiscussion/templates2.underscore:201
+#: lms/templates/eoldiscussion/templates2.underscore:540
+msgid "Submit"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:45
+#: lms/templates/eoldiscussion/templates2.underscore:685
+msgid "This thread is closed."
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:84
+#, python-format
+msgid "discussion posted %(time_ago)s by %(author)s"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:86
+#, python-format
+msgid "question posted %(time_ago)s by %(author)s"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:94
+msgid "Pinned"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:97
+#: lms/templates/eoldiscussion/templates2.underscore:251
+#: lms/templates/eoldiscussion/templates2.underscore:324
+msgid "Reported"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:100
+msgid "Closed"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:123
+#, python-format
+msgid "Related to: %(courseware_title_linked)s"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:133
+#, python-format
+msgid "This post is visible only to %(group_name)s."
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:139
+msgid "This post is visible to everyone."
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:146
+msgid "Editing post"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:151
+#: lms/templates/eoldiscussion/templates2.underscore:496
+msgid "Title"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:153
+#: lms/templates/eoldiscussion/templates2.underscore:498
+msgid "Add a clear and descriptive title to encourage participation. (Required)"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:159
+msgid "Edit your post below."
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:171
+msgid "Update post"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:172
+#: lms/templates/eoldiscussion/templates2.underscore:288
+#: lms/templates/eoldiscussion/templates2.underscore:344
+#: lms/templates/eoldiscussion/templates2.underscore:466
+#: lms/templates/eoldiscussion/templates2.underscore:541
+msgid "Cancel"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:178
+#, python-format
+msgid "Show Comment (%(num_comments)s)"
+msgid_plural "Show Comments (%(num_comments)s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:188
+#: lms/templates/eoldiscussion/templates2.underscore:190
+msgid "Add a comment"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:222
+#, python-format
+msgid "marked as answer %(time_ago)s by %(user)s"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:226
+#, python-format
+msgid "marked as answer %(time_ago)s"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:232
+#, python-format
+msgid "endorsed %(time_ago)s by %(user)s"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:236
+#, python-format
+msgid "endorsed %(time_ago)s"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:275
+msgid "Editing response"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:287
+msgid "Update response"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:317
+#, python-format
+msgid "posted %(time_ago)s by %(author)s"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:331
+msgid "Editing comment"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:343
+msgid "Update comment"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:386
+#: lms/templates/eoldiscussion/templates2.underscore:605
+#: lms/templates/eoldiscussion/templates2.underscore:680
+msgid "anonymous"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:400
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:294
+msgid "Community TA"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:403
+msgid "Student"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:413
+#: lms/templates/eoldiscussion/templates2.underscore:414
+msgid "Creación"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:416
+#: lms/templates/eoldiscussion/templates2.underscore:417
+msgid "Última actividad"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:434
+#, python-format
+msgid ""
+"%(comments_count)s %(span_sr_open)scomments (%(unread_comments_count)s "
+"unread comments)%(span_close)s"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:437
+#, python-format
+msgid "%(comments_count)s %(span_sr_open)scomments %(span_close)s"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:462
+#: lms/templates/eoldiscussion/templates2.underscore:612
+msgid "Crear publicación"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:477
+msgid "Visible to"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:480
+msgid ""
+"Discussion admins, moderators, and TAs can make their posts visible to "
+"all students or specify a single group."
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:484
+msgid "All Groups"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:507
+msgid "Tu pregunta o idea (requerido)"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:523
+msgid "follow this post"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:529
+msgid "post anonymously"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:535
+msgid "post anonymously to classmates"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:559
+msgid "Error posting your message."
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:572
+#, python-format
+msgid "This post will be visible only to %(group_name)s."
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:578
+msgid "This post will be visible to everyone."
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:584
+msgid "Topic area"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:587
+msgid "Add your post to a relevant topic to help others find it. (Required)"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:600
+msgid "(Community TA)"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:602
+msgid "(Staff)"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:628
+msgid "All Posts"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:629
+msgid "Return to all posts"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:642
+msgid "Previous"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:648
+#: lms/templates/eoldiscussion/templates2.underscore:660
+msgid "…"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:666
+msgid "Next"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:692
+msgid "View discussion"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:753
+#: lms/templates/eoldiscussion/templates2.underscore:942
+msgid "Load more"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:763
+msgid "Post type"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:767
+msgid ""
+"Questions raise issues that need answers. Discussions share ideas and "
+"start conversations. (Required)"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:775
+msgid "Question"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:783
+msgid "Discussion"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:792
+#: lms/templates/eoldiscussion/templates2.underscore:794
+msgid "Endorse"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:795
+msgid "Unendorse"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:804
+#: lms/templates/eoldiscussion/templates2.underscore:806
+msgid "Mark as Answer"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:807
+msgid "Unmark as Answer"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:816
+#: lms/templates/eoldiscussion/templates2.underscore:818
+msgid "Follow"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:819
+msgid "Unfollow"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:832
+msgid "Vote for this post,"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:848
+msgid "Report abuse"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:850
+msgid "Report"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:851
+msgid "Unreport"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:862
+#: lms/templates/eoldiscussion/templates2.underscore:864
+msgid "Pin"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:865
+msgid "Unpin"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:879
+msgid "Open"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:909
+#: lms/templates/eoldiscussion/templates2.underscore:910
+msgid "More"
+msgstr ""
+
+#: lms/templates/eoldiscussion/templates2.underscore:935
+msgid "OK"
+msgstr ""
+
+#: lms/templates/header/header.html:112
 #: lms/templates/header/navbar-logo-header.html:19
 msgid "{platform_name} Home Page"
 msgstr ""
 
-#: lms/templates/header/header.html:90
+#: lms/templates/header/header.html:126
 msgid "Pantalla Completa"
 msgstr ""
 
-#: lms/templates/header/header.html:96
+#: lms/templates/header/header.html:132
 msgid ""
 "{begin_strong}Warning:{end_strong} Your browser is not fully supported. "
 "We strongly recommend using {chrome_link} or {ff_link}."
 msgstr ""
 
-#: lms/templates/header/header.html:119
+#: lms/templates/header/header.html:155
 #: lms/templates/widgets/footer-language-selector.html:24
 msgid "Choose Language"
 msgstr ""
 
-#: lms/templates/header/navbar-authenticated.html:33
+#: lms/templates/header/navbar-authenticated.html:37
 msgid "Mis Cursos"
 msgstr ""
 
-#: lms/templates/header/navbar-authenticated.html:36
+#: lms/templates/header/navbar-authenticated.html:40
 msgid "Explorar Cursos"
 msgstr ""
 
-#: lms/templates/header/navbar-authenticated.html:42
+#: lms/templates/header/navbar-authenticated.html:46
 msgid "Ayuda"
 msgstr ""
 
-#: lms/templates/header/navbar-authenticated.html:45
+#: lms/templates/header/navbar-authenticated.html:49
 #: lms/templates/static_templates/about.html:18
 msgid "¿Qué es EOL?"
 msgstr ""
 
-#: lms/templates/header/navbar-authenticated.html:47
+#: lms/templates/header/navbar-authenticated.html:51
 #: lms/templates/static_templates/faq.html:20
 msgid "Preguntas Frecuentes"
 msgstr ""
 
-#: lms/templates/header/navbar-authenticated.html:49
+#: lms/templates/header/navbar-authenticated.html:53
 msgid "Validación de Certificados"
 msgstr ""
 
@@ -1783,7 +2329,7 @@ msgstr ""
 msgid "Sign Out"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:19
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:27
 msgid ""
 "Click to display the grading configuration for the course. The grading "
 "configuration is the breakdown of graded subsections of the course (such "
@@ -1791,23 +2337,23 @@ msgid ""
 "(under 'Settings') in Studio."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:20
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:28
 msgid "Grading Configuration"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:25
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:33
 msgid "Click to download a CSV of anonymized student IDs:"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:26
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:34
 msgid "Get Student Anonymized IDs CSV"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:32
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:40
 msgid "Reports"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:34
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:42
 msgid ""
 "For large courses, generating some reports can take several hours. When "
 "report generation is complete, a link that includes the date and time of "
@@ -1816,61 +2362,61 @@ msgid ""
 "report is generating."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:36
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:44
 msgid ""
 "Please be patient and do not click these buttons multiple times. Clicking"
 " these buttons multiple times will significantly slow the generation "
 "process."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:38
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:46
 msgid ""
 "Click to generate a CSV file of all students enrolled in this course, "
 "along with profile information such as email address and username:"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:40
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:48
 msgid "Descargar la información de perfil como archivo CSV"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:42
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:50
 msgid ""
 "Click to generate a CSV file that lists learners who can enroll in the "
 "course but have not yet done so."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:44
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:52
 msgid "Download a CSV of learners who can enroll"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:47
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:55
 msgid "Click to generate a CSV file of all proctored exam results in this course."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:48
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:56
 msgid "Generate Proctored Exam Results Report"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:52
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:60
 msgid "Click to generate a CSV file of survey results for this course."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:53
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:61
 msgid "Generate Survey Results Report"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:56
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:64
 msgid ""
 "Select a problem to generate a CSV file that lists all student answers to"
 " the problem. You also select a section or chapter to include results of "
 "all problems in that section or chapter."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:60
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:68
 msgid "NOTE"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:61
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:69
 msgid ""
 "The generated report is limited to {max_entries} responses. If you expect"
 " more than {max_entries} responses, try generating the report on a "
@@ -1878,173 +2424,186 @@ msgid ""
 "administrator to increase the limit."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:85
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:93
 msgid "Click to list certificates that are issued for this course:"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:87
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:95
 msgid "View Certificates Issued"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:88
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:96
 msgid "Download CSV of Certificates Issued"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:90
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:98
 msgid "(Nuevo) Descargar Reporte de Certificados"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:103
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:111
 msgid ""
 "For smaller courses, click to list profile information for enrolled "
 "students directly on this page:"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:104
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:112
 msgid "List enrolled students' profile information"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:109
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:117
 msgid "Click to generate a CSV grade report for all currently enrolled students."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:111
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:119
 msgid "Generate Grade Report"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:112
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:120
 msgid "Generate Problem Grade Report"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:113
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:121
 msgid "Generate ORA Data Report"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:119
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:127
 msgid "Reporte de preguntas"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:120
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:128
 msgid "Existen dos maneras para generar reportes de preguntas en formato CSV:"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:121
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:129
 msgid "Modo resumen/compacto"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:121
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:129
 msgid ""
 "Genera un reporte de todos los bloques tipo pregunta mostrando los "
 "intentos, puntaje ganado y puntaje posible del bloque de cada estudiante."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:122
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:130
 msgid "Modo Completo"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:122
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:130
 msgid ""
 "Genera un reporte de todas las preguntas de los bloques tipo pregunta "
 "mostrando la pregunta, respuesta del estudiante, respuesta correcta, "
 "intentos, puntaje ganado y puntaje posible del bloque."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:123
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:131
 msgid "Reporte Modo Resumen"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:124
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:132
 msgid "Reporte Modo Completo"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:128
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:136
 msgid ""
 "Para una mejor visualización y manejo de los datos en el Excel, puede ver"
 " un mini tutorial haciendo"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:128
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:136
 msgid "click aqui"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:134
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:184
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:142
+msgid "Analítica de preguntas"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:145
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:167
+msgid "Generar"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:163
+msgid "Analítica de encuestas"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:178
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:228
 msgid "Exportar Notas"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:137
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:181
 msgid ""
 "El porcentaje de aprobación no se configurado correctamente, contáctese "
 "con la mesa de ayuda(eol-ayuda@uchile.cl) para mas información."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:140
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:184
 msgid "El porcentaje de aprobación del curso es del:"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:141
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:185
 msgid ""
 "Seleccione la escala de notas, presione el boton Exportar Notas y se "
 "generará un archivo Excel."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:142
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:186
 msgid ""
 "NOTA: Al seleccionar la escala '0 - 100' o '0.00 - 1.00' el puntaje "
 "obtenido de cada estudiante será transformado a un puntaje con porcentaje"
 " de aprobación del 50%"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:143
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:187
 msgid ""
 "NOTA: Al seleccionar el formato 'Completo' con escala de 1.0 - 7.0, cada "
 "evaluación estará en una escala de 0 - 100 y solamente el promedio final "
 "estará con la escala seleccionada."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:146
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:190
 msgid "Tipo de tarea:"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:150
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:194
 msgid "Nota final del curso"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:159
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:203
 msgid "Escala de Nota:"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:171
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:215
 msgid "Formato:"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:175
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:219
 msgid "Completo"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:176
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:220
 msgid "Solo Promedio Final"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:187
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:231
 msgid "Para saber como subir estas notas a la plataforma U-Cursos"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:187
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:231
 msgid "presione aqui."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:199
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:243
 msgid "Reports Available for Download"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:201
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:245
 msgid ""
 "The reports listed below are available for download, identified by UTC "
 "date and time of generation."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:206
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:250
 msgid ""
 "The answer distribution report listed below is generated periodically by "
 "an automated background process. The report is cumulative, so answers "
@@ -2052,7 +2611,7 @@ msgid ""
 "The report is generated several times per day."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:212
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:256
 msgid ""
 "{strong_start}Note{strong_end}: {ul_start}{li_start}To keep student data "
 "secure, you cannot save or email these links for direct access. Copies of"
@@ -2062,13 +2621,26 @@ msgid ""
 "security policies.{li_end}{ul_end}"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:229
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:114
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:273
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:137
 msgid "Pending Tasks"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:231
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:275
 msgid "The status for any active tasks appears in a table below."
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:25
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:105
+msgid "Instructor Dashboard"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:108
+msgid "View Course in Studio"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:124
+msgid "Correo de bienvenida"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:13
@@ -2251,10 +2823,6 @@ msgid ""
 "or the Discussion Admin role to add discussion moderators and TAs."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:198
-msgid "Staff"
-msgstr ""
-
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:200
 msgid ""
 "Course team members with the Staff role help you manage your course. "
@@ -2364,10 +2932,6 @@ msgstr ""
 msgid "Add Group Community TA"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:294
-msgid "Community TA"
-msgstr ""
-
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:296
 msgid ""
 "Community TAs are members of the community who help course teams moderate"
@@ -2396,59 +2960,67 @@ msgstr ""
 msgid "Add CCX Coach"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:10
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:14
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:16
+msgid "Habilitar:"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:23
+msgid "Habilitar correo de bienvenida"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:30
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:34
 msgid "Send to:"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:18
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:38
 msgid "Myself"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:22
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:42
 msgid "Staff and Administrators"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:26
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:46
 msgid "All Learners"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:35
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:55
 msgid "Cohort: "
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:39
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:59
 msgid "(Learners not explicitly assigned to a cohort)"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:54
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:74
 msgid "Learners in the {track_name} Track"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:64
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:84
 msgid "Subject: "
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:71
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:92
 msgid "(Maximum 128 characters)"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:76
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:97
 msgid "Responder a (opcional): "
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:83
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:104
 msgid ""
 "(Ingrese el/los correos al que los estudiantes podrán responder. Si "
 "ingresa más de un correo separelos con una coma, ejemplo: "
 "correo1@correo.cl, correo2@correo.cl)"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:88
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:109
 msgid "Message:"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:97
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:118
 msgid ""
 "We recommend sending learners no more than one email message per week. "
 "Before you send your email, review the text carefully and send it to "
@@ -2456,49 +3028,53 @@ msgid ""
 "embedded images and links work correctly."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:100
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:121
 msgid "CAUTION!"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:101
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:122
 msgid ""
 "When you select Send Email, your email message is added to the queue for "
 "sending, and cannot be cancelled."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:105
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:126
 msgid "Send Email"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:116
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:128
+msgid "Guardar Cambios"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:139
 msgid ""
 "Email actions run in the background. The status for any active tasks - "
 "including email tasks - appears in a table below."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:128
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:151
 msgid "Email Task History"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:130
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:153
 msgid "To see the content of previously sent emails, click this button:"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:132
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:155
 msgid "Show Sent Email History"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:136
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:159
 msgid "To read a sent email message, click its subject."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:143
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:166
 msgid ""
 "To see the status for all email tasks submitted for this course, click "
 "this button:"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html:145
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:168
 msgid "Show Email Task History"
 msgstr ""
 
@@ -2884,34 +3460,4 @@ msgstr ""
 #: lms/templates/student_account/login_and_register.html:14
 msgid "Sign in or Register"
 msgstr ""
-
-#~ msgid "Download profile information as a CSV"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "EOL es la plataforma de Educación "
-#~ "Online de la Universidad de Chile, "
-#~ "administrada por la Oficina de Educación"
-#~ " Online de la Vicerrectoría de "
-#~ "Tecnologías de la Información. Dicha "
-#~ "Oficina es la encargada del desarrollo"
-#~ " de capacidades técnicas, humanas y "
-#~ "de nuevas tecnologías para educación, a"
-#~ " fin de dar respuesta a las "
-#~ "necesidades y particularidades de los "
-#~ "organismos universitarios y unidades "
-#~ "académicas vinculadas con la docencia."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Hemos recibido su información y el "
-#~ "proceso de verificación del ID ha "
-#~ "empezado.Revise si tiene un correo "
-#~ "electrónico de nosotros en los próximos"
-#~ " días para confirmar si su "
-#~ "verificación fue exitosa.También puede revisar"
-#~ " el estado del proceso de "
-#~ "verificación en su página de inicio "
-#~ "."
-#~ msgstr ""
 
